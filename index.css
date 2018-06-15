@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 860px;
+}
+header img:first-child{
+  position: absolute;
+  top: 70px;
+  left: 80px;
+}
+header img:nth-child(2){
+  width: 100%;
+  height: 850px;
+}
+header h3{
+  position: absolute;
+  top: 70px;
+  right: 155px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+header a article{
+  width: 35px;;
+  height: 5px;
+  background-color: white;
+  border-radius: 1px;
+}
+header a article:first-child{
+  position: absolute;
+  top: 70px;
+  right: 110px;
+}
+header a article:nth-child(2){
+  position: absolute;
+  top: 80px;
+  right: 110px;
+}
+header a article:nth-child(3){
+  position: absolute;
+  top: 90px;
+  right: 110px;
+}
+header h1{
+  position: absolute;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  top: 40%;
+  left: 60px;
+  font-size: 50px;
+}
+header .cuadro1{
+  position: absolute;
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  border-radius: 3px;
+  left: 60px;
+  top: 62%;
+}
+header .cuadro1 h4{
+  color: #5ABDD6;
+  text-align: center;
+  margin-top: 20px;
+}
+header .cuadro1:hover{
+  background-color: #5ABDD6;
+}
+ header .cuadro1:hover h4{
+  color: white;
+}
+header a{
+  text-decoration:none;
+}
+header .cuadro2{
+  position: absolute;
+  width: 150px;
+  height: 56px;
+  border: solid white 3px;
+  border-radius: 3px;
+  left: 230px;
+  top: 62%;
+}
+header .cuadro2 h4{
+  color: white;
+  text-align: center;
+  margin-top: 17px;
+}
+header .cuadro2:hover{
+  border: solid #5ABDD6 3px;
+}
+header .cuadro2:hover h4{
+  color: #5ABDD6;
+}
+header .play{
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 910px;
+  left:40%;
+}
+header h2{
+  position: absolute;
+  top: 915px;
+  left:44%;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+}
+section{
+
+  width: 100%;
+  margin-top: 150px;
+  height:930px;
+}
+section img:first-child{
+  position: absolute;
+  width: 50%;
+  height: 500px;
+}
+section img:nth-child(2){
+  position:absolute;
+  margin-left: 320px;
+  margin-top: 205px;
+}
+section .art1{
+  position: relative;
+  background-color: #385F89;
+  left: 50%;
+  width: 50%;
+  height: 500px;
+}
+section>.art1>h5{
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+section>.art1>.cuadrotexto{
+  position: absolute;
+  top: 160px;
+  left: 150px;
+  width: 400px;
+  height: 300px;
+}
+section>.art1>.cuadrotexto>p{
+  color: white;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+section>.art1>h6{
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  color: #5ABDD6;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+section>.art2{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: lightgray;
+}
+section>.art2>img:first-child{
+  width: 100px;
+  height: 100px;
+  left: 100px;
+  top: 100px;
+}
+section>.art2 h5{
+  position:absolute;
+  color: black;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+  left: 220px;
+  top: 100px;
+}
+section>.art2 article{
+  position: absolute;
+  width: 450px;
+  height: 200px;
+}
+section>.art2 article p{
+  position: absolute;
+  color: #57686D;
+  left: 220px;
+  top: 130px;
+  font-family: 'Nunito', sans-serif;
+}
+section>.art1 a{
+  text-decoration: none;
+}
+section>.art2 a h6{
+  position: absolute;
+  left: 220px;
+  top: 230px;
+  color: #57686D;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+section>.art2 a h6:hover{
+  color:  #5ABDD6;
+}
+section>.art2 .rayo{
+  position:absolute;
+  width: 100px;
+  height: 100px;
+  left: 550px;
+  top: 100px;
+}
+section>.art2 .titrayo{
+  position:absolute;
+  color: black;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+  left: 670px;
+  top: 100px;
+}
+section>.art2 .prayo{
+  position: absolute;
+  width: 450px;
+  height: 200px;
+}
+section>.art2 .prayo p{
+  position: absolute;
+  color: #57686D;
+  left: 670px;
+  top: 130px;
+  font-family: 'Nunito', sans-serif;
+}
